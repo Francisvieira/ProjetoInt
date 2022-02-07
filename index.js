@@ -85,7 +85,7 @@ app.delete("/produto/apagar/:id", (req, res) => {
     });
 });
 
-// subir o servidor na porta 2000 
+// subir o servidor na porta 3000 
 app.listen("3000", () => console.log("Servidor online em: http://localhost:3000"));
 
 module.exports = app;

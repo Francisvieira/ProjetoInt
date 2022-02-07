@@ -14,7 +14,9 @@ function carregarDadosAPI() {
                   <h5 class="card-title">${itens.nomeproduto}</h5>
                   <p class="card-text">${itens.descricao}</p>
                   <p class="card-text">${itens.preco}</p>
-                  <p class="card-text"><small class="text-muted"><button type="button" class="btn btn-primary btn-lg">Comprar</button>
+
+                  <p class="card-text"><small class="text-muted"><a href="pedido.html?id=${itens.idproduto}" class="btn btn-primary btn-lg">Comprar</a>
+                 
                   
                 </small></p>
                 </div>
