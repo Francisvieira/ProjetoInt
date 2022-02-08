@@ -1,0 +1,17 @@
+
+
+
+
+ body{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKeqJ6If92Hdb8LCybZOdQtb-lBTZ_pmkFA&usqp=CAU") ;
+    background-size: 100%;
+}   
+
+
+
+.container{
+    justify-content: center;
+    margin-top: 170px;
+    
+};
+
